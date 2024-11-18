@@ -36,16 +36,16 @@ h2 {
     padding-left: 20px; /* Aligns the headings with the table and priority box */
 }
 
-/* About Paragraph styling */
+/* Paragraph styling */
 p {
     font-size: 16px; 
     margin-bottom: 20px; 
-    padding-left: 40px; 
+    padding-left: 25px; 
 }
 
 /* Lists */
 ul, ol {
-    padding-left: 40px; 
+    padding-left: 25px; 
     margin-bottom: 20px; 
 }
 
@@ -61,7 +61,7 @@ ul {
 
 /* Instagram link styling */
 a {
-    color: #0066cc; /* Blue links */
+    color: #7dc39c; /* Blue links */
     text-decoration: none; /* Remove underline */
 }
 
@@ -133,6 +133,7 @@ footer {
 footer a {
     color: white; 
     text-decoration: underline; 
+    
 }
 
 footer a:hover {
@@ -149,7 +150,7 @@ ol {
     border-radius: 10px; /* Optional: for rounded corners */
 }
 
-/* Title alignment for page2.html */
+/* Title alignment for page2 */
 h2 {
     margin-top: 20px; 
     margin-bottom: 10px;
@@ -158,7 +159,7 @@ h2 {
     padding-left: 20px; /* Aligns the headings with the table and priority box */
 }
 
-/* Responsive design for smaller screens */
+/* Responsive design */
 @media (max-width: 768px) {
     body {
         font-size: 14px; 
@@ -179,4 +180,31 @@ h2 {
     img {
         max-width: 100%; /* Responsive image */
     }
+}
+
+/* greeting */
+.morning, .afternoon, .evening {
+    font-size: 30px; /* Same font size as other section titles (h2) */
+    color: #57b85b; 
+    padding-left: 32px; /*padding for alignment */
+    margin-top: 30px; /*margin for spacing */
+    margin-bottom: 1px;
+}
+
+/* Morning greeting */
+.morning {
+    color: #eff175; 
+    font-weight: bold;
+}
+
+/* Afternoon greeting */
+.afternoon {
+    color: #a4c43b; 
+    font-weight: normal;
+}
+
+/* Evening greeting */
+.evening {
+    color: #fcbb23; /* A cool color for the evening */
+    font-style: italic;
 }
